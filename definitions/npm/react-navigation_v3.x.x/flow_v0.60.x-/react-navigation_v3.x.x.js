@@ -558,7 +558,7 @@ declare module 'react-navigation' {
     dangerouslyGetParent: () => NavigationScreenProp<*>,
     isFocused: () => boolean,
     // Shared action creators that exist for all routers
-    goBack: (routeKey?: ?string) => boolean,
+    goBack: (routeKey?: ?string) => void,
     navigate: (
       routeName:
         | string

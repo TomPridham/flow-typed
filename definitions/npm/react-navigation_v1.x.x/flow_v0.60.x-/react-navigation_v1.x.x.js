@@ -483,7 +483,7 @@ declare module 'react-navigation' {
   declare export type NavigationScreenProp<+S> = {
     +state: S,
     dispatch: NavigationDispatch,
-    goBack: (routeKey?: ?string) => boolean,
+    goBack: (routeKey?: ?string) => void,
     navigate: (
       routeName: string,
       params?: NavigationParams,
